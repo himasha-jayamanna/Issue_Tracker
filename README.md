@@ -1,6 +1,6 @@
 # Issue_Tracker
  
-The application allows users to create, manage, update,delete, filter, and export issues in a clean and user-friendly interface.
+A modern full-stack issue tracker built with React, Node.js, Express, and MongoDB, featuring JWT authentication. The application allows users to create, manage, update,delete, filter, and export issues in a clean and user-friendly interface.
 
 ---
 
@@ -59,9 +59,9 @@ Make sure you have the following installed:
 
 ---
 
-## 🚀 Getting Started (Local Setup)
+## Getting Started (Local Setup)
 
-### ✅ Prerequisites
+### Prerequisites
 
 Make sure you have the following installed:
 
@@ -90,8 +90,6 @@ Make sure you have the following installed:
     ```bash
     node server.js
     
-    Backend will run on: http://localhost:5000
-
 ## Frontend Setup
 
 1. Navigate to frontend folder:
@@ -105,5 +103,3 @@ Make sure you have the following installed:
 3. Start frontend:
     ```bash
     npm run dev
-
-    Frontend will run on: http://localhost:5173
