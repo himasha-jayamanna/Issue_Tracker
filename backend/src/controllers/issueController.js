@@ -9,7 +9,7 @@ exports.createIssue = async (req, res) => {
       description,
       status,
       priority,
-      createdBy: req.user.id, // comes from auth middleware
+      createdBy: req.user.id, 
     });
     res.status(201).json(issue);
   } catch (err) {

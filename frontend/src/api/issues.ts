@@ -5,7 +5,7 @@ export interface CreateIssuePayload {
   title: string;
   description: string;
   priority: "Low" | "Medium" | "High";
-  status: "Open" | "In Progress" | "Resolved" | "Closed"; // ✅ ADD
+  status: "Open" | "In Progress" | "Resolved" | "Closed"; 
   assignedTo?: string;
 }
 

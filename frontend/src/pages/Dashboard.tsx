@@ -50,7 +50,7 @@ const Dashboard = () => {
   // Export issues
   const exportIssues = async (format: "csv" | "json") => {
     try {
-      const res = await fetchIssues(); // fetch fresh data from backend
+      const res = await fetchIssues(); 
       const exportData = res.data;
 
       if (!exportData.length) return alert("No issues to export");
@@ -84,7 +84,7 @@ const Dashboard = () => {
         URL.revokeObjectURL(url);
       }
 
-      setExportOpen(false); // close dropdown after export
+      setExportOpen(false); 
     } catch (err) {
       console.error(err);
       alert("Failed to export issues");

@@ -27,7 +27,7 @@ router.post("/", authMiddleware, async (req, res) => {
   }
 });
 
-// ✅ NEW: READ ALL ISSUES
+// READ ALL ISSUES
 router.get("/", authMiddleware, async (req, res) => {
   try {
     const issues = await Issue.find()

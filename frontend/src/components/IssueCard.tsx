@@ -103,7 +103,7 @@ const Badge = ({ text, type }: { text: string; type: "status" | "priority" }) =>
         ? "bg-yellow-100 text-yellow-700"
         : text === "Resolved"
         ? "bg-green-100 text-green-700"
-        : "bg-gray-100 text-gray-700" // Closed
+        : "bg-gray-100 text-gray-700" 
       : text === "High"
       ? "bg-red-100 text-red-700"
       : text === "Medium"
